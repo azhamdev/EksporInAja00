@@ -1,0 +1,153 @@
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+.container {
+  padding: 20px 24px 20px 24px;
+}
+
+.container-fluid {
+  padding-top: 30px;
+}
+
+.nav-item {
+  padding-left: 10px;
+  size: 10px;
+}
+
+.headline {
+  width: 500px;
+  padding-top: 100px;
+}
+
+.headline2 {
+  width: 500px;
+  padding-top: 30px;
+}
+
+.row {
+  padding-top: 15px;
+}
+
+.logo-ekspor {
+  width: 50px;
+  height: 50px;
+  padding-left: 0px;
+}
+
+.logo_ {
+  width: 50px;
+  height: 50px;
+}
+
+.togg {
+  padding-left: 350px !important;
+}
+
+/* css content */
+.content {
+  padding-left: 45px;
+}
+
+.banner img {
+  float: right;
+  width: 300px;
+  height: 200px;
+  margin-right: 120px;
+}
+
+.bannerdown img {
+  float: right;
+  width: 300px;
+  height: 200px;
+  margin-left: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+
+.content1 {
+  padding-top: 20px;
+}
+
+.content2 {
+  padding-top: 100px;
+}
+
+.content3 {
+  padding-top: 50px;
+}
+
+.gambar-content2 img {
+  width: 100px;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.col-md-3 {
+  width: 30% !important;
+  float: right;
+}
+
+.content-card {
+  padding-top: 10px;
+}
+
+.card {
+  width: 250px;
+}
+
+.card1 {
+  float: right;
+}
+
+.rowww {
+  margin-left: 150px;
+}
+
+.carousel-item img {
+  height: 500px;
+}
