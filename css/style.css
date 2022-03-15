@@ -44,6 +44,7 @@ table {
 
 .container {
   padding: 20px 24px 20px 24px;
+  background-image: url("/assets/bg.png/");
 }
 
 .container-fluid {
@@ -51,13 +52,39 @@ table {
 }
 
 .nav-item {
-  padding-left: 10px;
+  padding-right: 10px;
   size: 10px;
 }
 
 .headline {
   width: 500px;
-  padding-top: 100px;
+}
+
+.judul {
+  font-size: 50px;
+  color: #6d7e8c;
+}
+
+.span {
+  color: #2f6073;
+}
+
+.p {
+  color: #6d7e8c;
+}
+
+.btn-custom {
+  color: #ffffff;
+  background-color: #2f6073;
+  border-color: #ffffff;
+  width: 110px;
+  height: 33px;
+}
+
+.view {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #6d7e8c;
 }
 
 .headline2 {
@@ -93,6 +120,7 @@ table {
 /* css content */
 .content {
   padding-left: 45px;
+  padding-top: 30px;
 }
 
 .banner img {
@@ -112,12 +140,16 @@ table {
 .header {
   display: flex;
   justify-content: flex-start;
-  /* align-items: center; */
+  align-items: center;
 }
 
-.content1 {
+/* .navbar {
+  float: left;
+} */
+
+/* .content1 {
   padding-top: 20px;
-}
+} */
 
 .content2 {
   padding-top: 100px;
@@ -135,7 +167,7 @@ table {
 
 .col-md-3 {
   width: 30% !important;
-  float: right;
+  /* float: right; */
 }
 
 .content-card {
