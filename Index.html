@@ -29,6 +29,7 @@
     />
   </head>
   <body>
+    <!-- container start -->
     <div class="container">
     <div class="container" style="margin-top: -30px;">
       <div class="container1">
@@ -215,57 +216,112 @@
                   <h3>Our Services</h3>
               </div>
           </div><br/>
-                <center>
-                  <a class="view" href="#"><span><i class="fa fas-down"></i>Agro Culture</span></a><a class="view" href="#"><span><i class="fa fas-down"></i>View Brochure</span></a><br/><br/>
-                </center>
-                <div class="row">
+              <!-- javascript filter -->
+              <center>
+              <div id="myBtnContainer">
+                <button id="btn1" class="btn active" onclick="filterSelection('agro')">Agro Culture</button>
+                <button class="btn" onclick="filterSelection('digital')"> Digital Services</button>
+              </div>
+              </center>
+             
+              <div class="containerfilter">
+                <div class="opsi agro">
                   <div class="col-sm-4">
                     <div class="card" style="width: 300px;">
                       <div class="card-body-services">
                         <center>
                           <br/>
                           <img class="img-services" src="assets/tea.png" class="card-img-top" alt="..."><br/><br/>
-                          <h5 class="card-title">Judul</h5><br/>
-                          <button type="button" class="btn-custom">Detail</button>
-                        </center>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- 2 -->
-                  <div class="col-sm-4">
-                    <div class="card" style="width: 300px;">
-                      <div class="card-body-services">
-                        <center>
-                          <br/>
-                          <img class="img-services" src="assets/tea.png" class="card-img-top" alt="..."><br/><br/>
-                          <h5 class="card-title">Judul</h5><br/>
-                          <button type="button" class="btn-custom">Detail</button>
-                        </center>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- 3 -->
-                  <div class="col-sm-4">
-                    <div class="card" style="width: 300px;">
-                      <div class="card-body-services">
-                        <center>
-                          <br/>
-                          <img class="img-services" src="assets/tea.png" class="card-img-top" alt="..."><br/><br/>
-                          <h5 class="card-title">Judul</h5><br/>
+                          <h5 class="card-title">Judul 1</h5><br/>
                           <button type="button" class="btn-custom">Detail</button>
                         </center>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!--  -->
+                  <!-- 2 -->
+                  <div class="opsi agro">
+                  <div class="col-sm-4">
+                    <div class="card" style="width: 300px;">
+                      <div class="card-body-services">
+                        <center>
+                          <br/>
+                          <img class="img-services" src="assets/tea.png" class="card-img-top" alt="..."><br/><br/>
+                          <h5 class="card-title">Judul 2</h5><br/>
+                          <button type="button" class="btn-custom">Detail</button>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <!-- 3 -->
+                  <div class="opsi agro">
+                  <div class="col-sm-4">
+                    <div class="card" style="width: 300px;">
+                      <div class="card-body-services">
+                        <center>
+                          <br/>
+                          <img class="img-services" src="assets/tea.png" class="card-img-top" alt="..."><br/><br/>
+                          <h5 class="card-title">Judul 3</h5><br/>
+                          <button type="button" class="btn-custom">Detail</button>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-- 4 -->
+                  <div class="opsi digital">
+                  <div class="col-sm-4">
+                    <div class="card" style="width: 300px;">
+                      <div class="card-body-services">
+                        <center>
+                          <br/>
+                          <img class="img-services" src="assets/tea.png" class="card-img-top" alt="..."><br/><br/>
+                          <h5 class="card-title">Judul 4</h5><br/>
+                          <button type="button" class="btn-custom">Detail</button>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-- 5 -->
+                <div class="opsi digital">
+                  <div class="col-sm-4">
+                    <div class="card" style="width: 300px;">
+                      <div class="card-body-services">
+                        <center>
+                          <br/>
+                          <img class="img-services" src="assets/tea.png" class="card-img-top" alt="..."><br/><br/>
+                          <h5 class="card-title">Judul 5</h5><br/>
+                          <button type="button" class="btn-custom">Detail</button>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-- 6 -->
+                  <div class="opsi digital">
+                  <div class="col-sm-4">
+                    <div class="card" style="width: 300px;">
+                      <div class="card-body-services">
+                        <center>
+                          <br/>
+                          <img class="img-services" src="assets/tea.png" class="card-img-top" alt="..."><br/><br/>
+                          <h5 class="card-title">Judul 6</h5><br/>
+                          <button type="button" class="btn-custom">Detail</button>
+                        </center>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              </div>
           </div>
         </div>
     </div>
     <!-- end our services -->
 
     <!-- contact -->
-    <div class="container" style="padding-left: 90px;padding-right: 80px;">
+    <div class="container" style="padding-left: 90px;padding-right: 80px;padding-top: 20px;padding-bottom: 20px;">
       <div class="card" style="border: 3px solid #2f6073;">
         
             <center><br/><br/>
@@ -320,12 +376,95 @@
 
             </center>
         </div>
-
+          <!-- end contact -->  
+          
         </div>
-      </div>
-    </div>
-    <!-- end contact -->
-    </div>
-  </div>
+        <section class="h-100 w-100" style="box-sizing: border-box; background-color: #174355;margin-top: 90px;">
+          <div class="footer-2-4 container-xxl mx-auto position-relative p-0" style="font-family: 'Poppins', sans-serif">
+            <div class="list-footer">
+              <div class="row gap-md-0 gap-3">
+                <div class="col-lg-4 col-md-6">
+                  <div class="" style="padding-top: 5px;">
+                    <div class="list-space">
+                      <img src="assets//logo_footer.png" style="max-width: 40%;"
+                        alt="" />
+                        <div class="capt" style="margin-top: 10px; color: #fff;">
+                          <h5>EksporinAja</h5>
+                          <p style="font-weight: 300;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, necessitatibus.</p>
+                          <br>
+                          <p style="font-weight: lighter;">© 2022 Eksporin Aja</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                  <h2 class="footer-text-title text-white">Company</h2>
+                  <nav class="list-unstyled">
+                    <li class="list-space">
+                      <a href="" class="list-menu">About</a>
+                    </li>
+                    <li class="list-space">
+                      <a href="" class="list-menu">Contact</a>
+                    </li>
+                    <li class="list-space">
+                      <a href="" class="list-menu">Career</a>
+                    </li>
+                    <li class="list-space">
+                      <a href="" class="list-menu">Instagram</a>
+                    </li>
+                  </nav>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                  <h2 class="footer-text-title text-white">Useful Links</h2>
+                  <nav class="list-unstyled">
+                    <li class="list-space">
+                      <a href="" class="list-menu">Privacy and Policy</a>
+                    </li>
+                    <li class="list-space">
+                      <a href="" class="list-menu">Terms & Conditions</a>
+                    </li>
+                    <li class="list-space">
+                      <a href="" class="list-menu">Operational hour</a>
+                    </li>
+                  </nav>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                  <h2 class="footer-text-title text-white">Office</h2>
+                  <nav class="list-unstyled">
+                    <li class="list-space">
+                      <a href="" class="list-menu">PT Eksporin Aja Indonesia</a>
+                    </li>
+                    <li class="list-space">
+                      <a href="" class="list-menu">Jl. Mayjen Sutoyo</a>
+                    </li>
+                    <li class="list-space">
+                      <a href="" class="list-menu">Tegal, Indonesia</a>
+                    </li>
+                    <li class="list-space">
+                      <a href="" class="list-menu">(021) 50343434</a>
+                    </li>
+                    <li class="list-space">
+                      <a href="" class="list-menu" style="font-style: italic;">team@eksporinaja.com</a>
+                    </li>
+                  </nav>
+                </div>
+              </div>
+            </div>
+      
+            <div class="border-color info-footer ">
+              <div class="">
+                <hr class="hr" />
+              </div>
+              <div class="mx-auto d-flex justify-content-center align-items-center" style="padding-top: 10px;">
+                <nav class="d-flex  justify-content-center ">
+                  <p style="margin-top: 10px">Made with &hearts; by Tegal Techno Center</p>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </section> 
+        
+    
+  <script src="js/category.js"></script>
   </body>
 </html>
